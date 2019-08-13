@@ -7,9 +7,9 @@
   "scripts": {
     "dev": "backpack dev",
     "build": "nuxt build && backpack build",
-    "heroku-postbuild": "nuxt build && backpack build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "heroku-postbuild": "backpack generate",
+    "start": "nuxt start && backpack start",
+    "generate": "backpack generate"
   },
   "dependencies": {
     "backpack-core": "^0.8.4",
