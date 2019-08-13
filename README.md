@@ -2,6 +2,9 @@
 
 > My exceptional Nuxt.js project
 
+result but /api didn't worked yet
+https://still-forest-60867.herokuapp.com/
+
 ## Build Setup
 
 ``` bash
