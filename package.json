@@ -1,0 +1,22 @@
+{
+  "name": "nodeS",
+  "version": "1.0.0",
+  "description": "My delightful Nuxt.js project",
+  "author": "Simon Lebedev",
+  "private": true,
+  "scripts": {
+    "dev": "backpack dev",
+    "build": "nuxt build && backpack build",
+    "heroku-postbuild": "nuxt build && backpack build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "backpack-core": "^0.8.4",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
